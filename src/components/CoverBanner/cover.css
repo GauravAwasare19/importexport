@@ -1,0 +1,23 @@
+/* Custom caption */
+.custom-caption {
+    position: absolute;
+    left: 30px; /* Add space on the left */
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 20px; /* Add padding around the caption */
+    color: #fff;
+    max-width: 400px; /* Restrict width for the caption text */
+  }
+  
+  .custom-caption h5 {
+    font-size: 2rem; /* Larger font size */
+    margin: 0;
+  }
+  
+  /* Adjust control buttons */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Darker buttons for contrast */
+    border-radius: 50%; /* Rounded icon background */
+  }
+  
